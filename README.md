@@ -5,7 +5,7 @@ g++ marks_management.cpp sqlite3.o -o marks_management
 ./marks_management
   // To execute the file
 
-// For Tesing
+// For Testing
 .\sqlite3 marks_management.db
 
 // To see the logical schema
