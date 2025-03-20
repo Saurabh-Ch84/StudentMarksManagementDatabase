@@ -4,3 +4,14 @@ g++ marks_management.cpp sqlite3.o -o marks_management
   // To compile .cpp file using previously compiled files
 ./marks_management
   // To execute the file
+
+// For Tesing
+.\sqlite3 marks_management.db
+
+// To see the logical schema
+  .tables
+
+// To view the schema
+.schema <TableName>
+
+// Atlast all queries of sql can be used to insert values, perform joins etc.
